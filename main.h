@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #ifndef MAIN_H
 #define MAIN_H
 
@@ -113,4 +114,15 @@ unsigned int convert_sbase(buffer_t *output, long int num, char *base,
 unsigned int convert_ubase(buffer_t *output, unsigned long int num, char *base,
 		unsigned char flags, int wid, int prec);
 
+=======
+#ifndef _HEADER_H_
+#define _HEADER_H_
+#include <string.h>
+#include <stdio.h>
+#include <unistd.h>
+#include <stdarg.h>
+
+int _printf(const char *format, ...);
+
+>>>>>>> 96a3bbe7a49cc308c664588e2c270b4d5c307b5d
 #endif

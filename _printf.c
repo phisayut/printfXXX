@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdarg.h>
+
 /**
  * _printf - Outputs a formatted string.
  * @format: Character string to print - may contain directives.
